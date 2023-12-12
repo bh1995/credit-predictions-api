@@ -15,7 +15,7 @@ steps:
 
 - task: Docker@2
   inputs:
-    containerRegistry: 'mycontainerregistry12345678910' # Name of your Azure Container Registry service connection
+    containerRegistry: 'credit-prediction-api' # Name of your Azure Container Registry service connection
     repository: 'myflaskapp'
     command: 'push'
     tags: |
