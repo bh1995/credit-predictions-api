@@ -16,11 +16,11 @@
     }
   },
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "templates/index.html"
-      ]
-    },
+    // "codespaces": {
+    //   "openFiles": [
+    //     "templates/index.html"
+    //   ]
+    // },
     "vscode": {
       "extensions": [
         "ms-python.python"
