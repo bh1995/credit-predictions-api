@@ -2,8 +2,6 @@ from flask import Flask, request, jsonify
 import xgboost as xgb
 from sklearn.preprocessing import LabelEncoder
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
-import os
-import json
 from json import JSONEncoder
 import pandas as pd
 import numpy as np
